@@ -1,0 +1,65 @@
+/* O'zgaruvchilar */
+:root {
+    --asosiy: #1f3a52;
+    --orqa-fon: #f9f9f9;
+    --matn: #333333;
+    --aktsent: #d9534f;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--orqa-fon);
+    color: var(--matn);
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Teg selektorlari */
+h1, h2, h3 {
+    color: var(--asosiy);
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+/* Guruhlangan selektor */
+h2, h3 {
+    text-transform: uppercase;
+}
+
+/* Klass va ID */
+#bosh-sahifa {
+    border-bottom: 2px solid var(--aktsent);
+}
+
+#muallif {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+/* Havolalar */
+a {
+    color: var(--asosiy);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--aktsent);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #5c3c92;
+}
+
+blockquote {
+    font-style: italic;
+    background: #eef2f5;
+    padding: 10px 20px;
+    border-left: 5px solid var(--asosiy);
+}
