@@ -1,4 +1,3 @@
-/* O'zgaruvchilar */
 :root {
     --asosiy: #1f3a52;
     --orqa-fon: #f9f9f9;
@@ -15,7 +14,6 @@ body {
     padding: 20px;
 }
 
-/* Teg selektorlari */
 h1, h2, h3 {
     color: var(--asosiy);
     text-align: center;
@@ -26,12 +24,10 @@ p {
     letter-spacing: 0.5px;
 }
 
-/* Guruhlangan selektor */
 h2, h3 {
     text-transform: uppercase;
 }
 
-/* Klass va ID */
 #bosh-sahifa {
     border-bottom: 2px solid var(--aktsent);
 }
@@ -42,7 +38,6 @@ h2, h3 {
     border: 1px solid #ddd;
 }
 
-/* Havolalar */
 a {
     color: var(--asosiy);
     text-decoration: none;
